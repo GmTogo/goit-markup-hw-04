@@ -146,6 +146,7 @@ display: block;
     background-size: cover;
     color: white;
     background-color: #2E2F42;
+    max-width: 1440px;
 }
 .hero-title {
 font-weight: 700;
@@ -176,7 +177,7 @@ min-width: 169px;
 }
 .hero-btn-main:hover,
 .hero-btn-main:focus  {
-    background-color: #404BBF;}
+    250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 /*----------- FEATURES ---------------*/
 .features {
