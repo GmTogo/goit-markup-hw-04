@@ -94,7 +94,9 @@ gap: 40px;
 color: #404bbf;
 }
 .header-menu-item {
-
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link {
     font-weight: 500;
@@ -123,6 +125,7 @@ position: relative;
   width: 100%;
   height: 4px;
   border-radius: 2px;
+  background-color: #404bbf;
   }
 .header-address {
     font-style: normal;
