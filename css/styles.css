@@ -171,7 +171,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     max-width: 1440px;
 }
 .hero-wrap{
-    
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);   
 }
 .hero-title {
 font-weight: 700;
@@ -199,9 +201,6 @@ padding: 16px 32px;
 border: none;
 border-radius: 4px;
 min-width: 169px;
-transition-property: background-color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn-main:hover,
 .hero-btn-main:focus  {
