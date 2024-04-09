@@ -267,7 +267,6 @@ color: #434455;
 .gallery-icon-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery-icon-link {
     width: 100%;
@@ -281,12 +280,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery-icon-icon {
     fill: #F4F4FD;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
-}
-.gallery-icon-link :hover{
+}     
+
+.gallery-icon-link:hover{
     background-color: #404bbf;
 }
-.gallery-icon-link :focus{
+.gallery-icon-link:focus{
     background-color: #404bbf;
 }
 /*----------- PORTFOLIO ---------------*/
