@@ -405,10 +405,10 @@ margin-bottom: 16px;
     display: flex;
     gap: 24px;
     justify-content: center;
+    width: 40px;
 }
 .footer-icon-item {
-    width: 40px;
-height: 40px;
+gap: 16px;
 }
 .footer-icon-link {
     width: 100%;
@@ -423,5 +423,5 @@ justify-content: center;
     fill: #F4F4FD;
 }
 .footer-icon-link:hover{
-    background-color: #31D0AA;
+    background-color: #31d0aa;;
 }
