@@ -408,7 +408,8 @@ margin-bottom: 16px;
     width: 40px;
 }
 .footer-icon-item {
-gap: 16px;
+    width: 40px;
+    height: 40px;
 }
 .footer-icon-link {
     width: 100%;
@@ -418,10 +419,14 @@ gap: 16px;
 display: flex;
 align-items: center;
 justify-content: center;
+gap: 16px;
 }
 .footer-icon-icon {
     fill: #F4F4FD;
 }
 .footer-icon-link:hover{
     background-color: #31d0aa;;
+}
+.footer-icon-link:focus{
+    background-color: #31d0aa;   
 }
