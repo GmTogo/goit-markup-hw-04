@@ -403,7 +403,7 @@ margin-bottom: 16px;
 }
 .footer-icon-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
     width: 40px;
 }
