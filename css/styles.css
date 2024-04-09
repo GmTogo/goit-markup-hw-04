@@ -67,6 +67,7 @@ text-transform: capitalize;
 .header-nav {
     display: flex;
     align-items: center;
+    color: #404bbf;
 }
 .header-logo {
 font-family: "Raleway", sans-serif;
@@ -75,7 +76,6 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #404bbf;
 margin-right: 76px;
 }
 .header-logo-text {
