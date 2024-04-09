@@ -146,6 +146,9 @@ color: #434455;
 padding-top: 24px;
 padding-bottom: 24px; 
 display: block;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 .header-address-link:hover,
 .header-address-link:focus{
